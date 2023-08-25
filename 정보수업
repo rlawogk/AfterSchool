@@ -1,0 +1,36 @@
+num=int(input('월을 입력하세요 : '))
+
+if num >= 2 and num <= 5 :
+    print('봄입니다.')
+
+elif num>=6 and num<=8 :
+    print('여름입니다.')
+          
+elif num>=9 and num<=11 :
+    print('가을입니다')
+    
+elif num==12 and num==1 :
+    print('겨울입니다')
+
+
+
+num=int(input('숫자를 입력하세요'))
+
+if num%4==0 and num%20!=0 :
+ print('4의 배수입니다')
+
+elif num%5==0 and num%20!=0 :
+ print('5의 배수입니다')
+
+elif num%20==0 :
+ print('4의 배수이면서 5의배수인 20의 배수입니다')
+
+A=input('알파벳을 입력하세요')
+
+if A==('a','e','i','o','u') :
+ print('모음입니다')
+    
+elif A!=('a','e','i','o','u') :
+ print('자음입니다')
+
+
